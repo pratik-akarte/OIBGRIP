@@ -1,0 +1,91 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-image: url(blob.svg);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: #0f222d;
+    background-size:cover;
+    background-position:center ;
+  }
+
+  .head{
+      text-align: center;
+      font-size:5em;
+      background: -webkit-linear-gradient(rgb(176, 189, 248), rgb(5, 47, 102));
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+  }
+  .ndh{
+    width:30%;
+    position: absolute;
+  }
+  
+  .app{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  form{
+    background-color: white;
+    height: max-content;
+    padding: 15px;
+  }
+  input[type="text"]{
+    width: 310px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: #fff;
+    color: #2f4f4f;
+  }
+  input[type="submit"]{
+    font-size: 1.3em;
+    color: #457c4f;
+    background-color: #fff;
+    outline: 0;
+    border: none;
+    width: 50px;
+  
+  }
+  input[type="submit"]:hover{
+      color:green;
+      cursor: pointer;
+  }
+  .todos{
+    background-color: #fff;
+    
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+  
+  }
+  ul{
+    list-style:none;
+ 
+
+  }
+  li{
+    border-bottom: 1px solid #53BDFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.5em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .done {
+    text-decoration: line-through; 
+    color: #104123;
+    cursor: pointer;
+  }
+  footer{
+    font-size: 1.2em; 
+    position: fixed;
+    margin-top: 13em;
+    margin-left: 32em;
+   }
