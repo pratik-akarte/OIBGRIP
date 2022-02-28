@@ -1,0 +1,177 @@
+        body{
+    
+			margin:0;
+            padding: 0;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+		#title {
+			text-align: center;
+			font-size: 7vh;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: normal;
+            color: rgba(0, 0, 0, 0.712);
+            animation: myAnim 2s ease 0s 1 normal forwards;
+
+		}
+        @keyframes myAnim {
+            0% {
+              animation-timing-function: ease-in;
+              opacity: 1;
+              transform: translateY(-45px);
+            }
+          
+            24% {
+              opacity: 1;
+            }
+          
+            40% {
+              animation-timing-function: ease-in;
+              transform: translateY(-24px);
+            }
+          
+            65% {
+              animation-timing-function: ease-in;
+              transform: translateY(-12px);
+            }
+          
+            82% {
+              animation-timing-function: ease-in;
+              transform: translateY(-6px);
+            }
+          
+            93% {
+              animation-timing-function: ease-in;
+              transform: translateY(-4px);
+            }
+          
+            25%,
+            55%,
+            75%,
+            87% {
+              animation-timing-function: ease-out;
+              transform: translateY(0px);
+            }
+          
+            100% {
+              animation-timing-function: ease-out;
+              opacity: 1;
+              transform: translateY(0px);
+            }
+          }
+       
+
+        .quote{
+            position: absolute;
+            margin-top: 22em;
+            color: white;
+            font-weight: bolder;
+            padding-right: 3em;
+            margin-left: 1em;
+            font-size: 2.3em;
+        }
+        
+		img {
+			display: inline-block;
+			width: 100%;
+            box-shadow: 20px 20px 20px #5e5f5f67;
+            
+		}
+        @keyframes myAnim {
+            0% {
+              animation-timing-function: ease-in;
+              opacity: 0;
+              transform: translateX(-250px);
+            }
+          
+            38% {
+              animation-timing-function: ease-out;
+              opacity: 1;
+              transform: translateX(0);
+            }
+          
+            55% {
+              animation-timing-function: ease-in;
+              transform: translateX(-68px);
+            }
+          
+            72% {
+              animation-timing-function: ease-out;
+              transform: translateX(0);
+            }
+          
+            81% {
+              animation-timing-function: ease-in;
+              transform: translateX(-28px);
+            }
+          
+            90% {
+              animation-timing-function: ease-out;
+              transform: translateX(0);
+            }
+          
+            95% {
+              animation-timing-function: ease-in;
+              transform: translateX(-8px);
+            }
+          
+            100% {
+              animation-timing-function: ease-out;
+              transform: translateX(0);
+            }
+          }
+
+        .sir{
+            position:absolute;
+            width: 25%;
+            margin-top: 12em;
+            margin-left: 9em;
+            box-shadow: 20px 20px 20px #5e5f5f21;
+            border:5px solid rgb(247, 246, 246);
+            padding:40px;
+            animation: myAnim 1s ease 0s 1 normal forwards;
+        }
+		#data {
+			background-color: rgba(253, 252, 252, 0.856);
+			box-shadow: 20px 20px 20px #5e5f5f21;
+            font-size: 1.1em;
+            animation: myAnim 1s ease 0s 1 normal forwards;
+			padding: 25px 25px;
+			margin: 50px;
+			margin-top: 50px;
+		}
+        @keyframes myAnim {
+            0% {
+              transform: scale(0);
+            }
+          
+            100% {
+              transform: scale(1);
+            }
+          }
+
+
+        .container {
+            display: flex;
+        }
+
+        .container__half {
+           
+            flex: 1;
+        }
+        .head2{
+            margin:90px;            
+        }
+        .head2 a{
+
+            color: black;
+            border: 1px solid gray;
+            padding: 10px;
+            text-decoration: none;
+          }
+        .footer{
+            align-self: center;
+            margin-top:10em;
+            padding: 10px;
+            margin-left: 33%;
+            
+        } 
